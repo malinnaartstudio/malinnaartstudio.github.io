@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Español desde cero — Frases para empezar | MalinnaArtStudio</title>
+<meta name="description" content="Фрази іспанською на кожен день — з вимовою і аудіо. Безкоштовна міні-книга від MalinnaArtStudio.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500;1,9..144,600&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#F4EEE2;
+    --cream-deep:#ECE3D2;
+    --navy:#1E2A47;
+    --navy-2:#141d33;
+    --raspberry:#B23A57;
+    --raspberry-deep:#8f2c45;
+    --gold:#E8D3A4;
+    --ink-soft:#5B5747;
+    --line:rgba(30,42,71,0.14);
+    --radius:18px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--cream);
+    color:var(--navy);
+    font-family:'Work Sans', sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation:none !important; transition:none !important;}
+  }
+  h1,h2,h3,.display{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    letter-spacing:-0.01em;
+    margin:0;
+  }
+  a{color:inherit;}
+  img{max-width:100%;display:block;}
+
+  /* ---------- Top bar ---------- */
+  .topbar{
+    position:sticky; top:0; z-index:50;
+    background:rgba(244,238,226,0.92);
+    backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);
+  }
+  .topbar-inner{
+    max-width:1080px; margin:0 auto;
+    display:flex; align-items:center; justify-content:space-between;
+    padding:14px 24px;
+  }
+  .brand{
+    display:flex; align-items:center; gap:10px;
+    font-family:'Fraunces', serif; font-weight:600; font-size:1.02rem;
+    text-decoration:none;
+  }
+  .brand-mark{
+    width:28px;height:28px;border-radius:50%;
+    background:var(--raspberry);
+    display:flex;align-items:center;justify-content:center;
+    color:var(--cream); font-size:0.85rem;
+  }
+  .brand span{color:var(--navy);}
+  .nav-cta{
+    font-size:0.82rem; font-weight:600;
+    background:var(--navy); color:var(--cream);
+    padding:9px 16px; border-radius:999px;
+    text-decoration:none; white-space:nowrap;
+  }
+
+  /* ---------- Hero ---------- */
+  .hero{
+    position:relative;
+    padding:76px 24px 56px;
+    overflow:hidden;
+    background:
+      radial-gradient(120% 90% at 15% -10%, #EAD9B4 0%, transparent 55%),
+      linear-gradient(180deg, #3B4D74 0%, #7A6E86 42%, #C98E6E 72%, #F4EEE2 100%);
+  }
+  .hero-skyline{
+    position:absolute; left:0; right:0; bottom:0; height:34%;
+    opacity:0.55;
+  }
+  .hero-inner{
+    max-width:760px; margin:0 auto; text-align:center; position:relative; z-index:2;
+  }
+  .eyebrow-pill{
+    display:inline-block;
+    background:rgba(244,238,226,0.9);
+    color:var(--navy);
+    font-size:0.72rem; font-weight:700; letter-spacing:0.14em; text-transform:uppercase;
+    padding:7px 16px; border-radius:999px;
+    margin-bottom:22px;
+  }
+  .hero h1{
+    color:#fff;
+    font-style:italic;
+    font-size:clamp(2.6rem, 7vw, 4.6rem);
+    line-height:0.98;
+    text-shadow:0 2px 24px rgba(20,20,40,0.25);
+  }
+  .hero h1 small{
+    display:block; font-size:0.5em; font-style:normal; font-weight:400;
+    letter-spacing:0.02em; margin-top:10px; color:rgba(255,255,255,0.88);
+  }
+  .hero-ua{
+    margin-top:26px; font-size:0.98rem; font-weight:600;
+    letter-spacing:0.06em; text-transform:uppercase; color:#fff;
+  }
+  .hero-tagline{
+    margin:18px auto 0; max-width:520px;
+    color:rgba(255,255,255,0.92); font-size:1.02rem; line-height:1.6;
+  }
+
+  /* ---------- Intro / tip ---------- */
+  .intro{
+    max-width:760px; margin:0 auto; padding:52px 24px 8px;
+  }
+  .intro p{ font-size:1.06rem; line-height:1.75; color:var(--ink-soft); margin:0 0 16px; }
+  .tip{
+    margin-top:28px;
+    background:var(--gold);
+    border-radius:var(--radius);
+    padding:20px 24px;
+    display:flex; gap:14px; align-items:flex-start;
+  }
+  .tip-icon{font-size:1.2rem; line-height:1;}
+  .tip strong{display:block; font-family:'Fraunces',serif; font-weight:600; margin-bottom:4px;}
+  .tip p{margin:0; color:var(--navy); font-size:0.95rem;}
+
+  /* ---------- Chapter nav ---------- */
+  .toc{
+    max-width:1080px; margin:56px auto 0; padding:0 24px;
+  }
+  .toc h2{font-size:0.78rem; letter-spacing:0.16em; text-transform:uppercase; font-family:'Work Sans',sans-serif; font-weight:700; color:var(--ink-soft); margin-bottom:16px;}
+  .toc-grid{
+    display:grid; grid-template-columns:repeat(auto-fill, minmax(220px,1fr)); gap:10px;
+  }
+  .toc-link{
+    display:flex; align-items:baseline; gap:10px;
+    background:#fff; border:1px solid var(--line); border-radius:12px;
+    padding:13px 16px; text-decoration:none; color:var(--navy);
+    font-size:0.92rem; font-weight:500;
+    transition:border-color .15s ease, transform .15s ease;
+  }
+  .toc-link:hover{border-color:var(--raspberry); transform:translateY(-1px);}
+  .toc-num{font-family:'Fraunces',serif; font-style:italic; color:var(--raspberry); font-size:0.95rem; flex-shrink:0;}
+
+  /* ---------- Chapters ---------- */
+  .chapters{max-width:760px; margin:64px auto 0; padding:0 24px 40px;}
+  .chapter{
+    scroll-margin-top:84px;
+    padding:44px 0;
+    border-top:1px solid var(--line);
+  }
+  .chapter:first-child{border-top:none;}
+  .chapter-head{
+    display:flex; align-items:baseline; gap:16px; margin-bottom:6px; flex-wrap:wrap;
+  }
+  .chapter-num{
+    font-family:'Fraunces',serif; font-style:italic; color:var(--raspberry);
+    font-size:1.1rem;
+  }
+  .chapter h2{
+    font-size:clamp(1.5rem, 4vw, 2.1rem); font-style:italic;
+  }
+  .chapter-es{
+    color:var(--ink-soft); font-size:0.92rem; margin:6px 0 22px;
+  }
+
+  .player-block{
+    background:var(--navy); color:var(--cream);
+    border-radius:var(--radius);
+    padding:16px 18px;
+    margin-bottom:22px;
+  }
+  .player-block + .player-block{margin-top:-6px;}
+  .player-label{
+    display:flex; align-items:center; gap:8px;
+    font-size:0.78rem; letter-spacing:0.08em; text-transform:uppercase;
+    font-weight:600; color:var(--gold); margin-bottom:10px;
+  }
+  audio{
+    width:100%; height:38px;
+    accent-color:var(--raspberry);
+  }
+  audio::-webkit-media-controls-panel{ background-color: var(--navy); }
+
+  .phrase-list{list-style:none; margin:0; padding:0;}
+  .phrase{
+    display:grid; grid-template-columns:1fr; gap:2px;
+    padding:14px 0; border-top:1px dashed var(--line);
+  }
+  .phrase:first-child{border-top:none;}
+  .phrase-es{font-weight:600; font-size:1.03rem;}
+  .phrase-es .pron{font-weight:400; color:var(--raspberry-deep); font-size:0.88em;}
+  .phrase-ua{color:var(--ink-soft); font-style:italic; font-size:0.95rem;}
+
+  /* ---------- Footer / CTA ---------- */
+  .cta{
+    background:var(--navy); color:var(--cream);
+    padding:64px 24px; text-align:center;
+  }
+  .cta-inner{max-width:600px; margin:0 auto;}
+  .cta h2{font-style:italic; font-size:clamp(1.8rem,5vw,2.6rem); color:#fff;}
+  .cta p{color:rgba(244,238,226,0.82); line-height:1.7; margin:18px 0 28px; font-size:1.02rem;}
+  .cta-btn{
+    display:inline-block; background:var(--raspberry); color:#fff;
+    padding:14px 30px; border-radius:999px; text-decoration:none;
+    font-weight:600; font-size:0.98rem;
+  }
+  footer{
+    text-align:center; padding:26px 24px; font-size:0.82rem; color:var(--ink-soft);
+    background:var(--cream);
+  }
+
+  @media (max-width:560px){
+    .hero{padding:56px 18px 44px;}
+    .topbar-inner{padding:12px 16px;}
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark">M</span>
+      <span>@malinnaartstudio</span>
+    </a>
+    <a class="nav-cta" href="#cta">Курс «Español Українською»</a>
+  </div>
+</div>
+
+<header class="hero" id="top">
+  <svg class="hero-skyline" viewBox="0 0 1200 200" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="0" y="120" width="40" height="80" fill="#1E2A47"/>
+    <rect x="46" y="90" width="26" height="110" fill="#1E2A47"/>
+    <rect x="78" y="140" width="30" height="60" fill="#1E2A47"/>
+    <rect x="114" y="70" width="22" height="130" fill="#1E2A47"/>
+    <rect x="142" y="110" width="34" height="90" fill="#1E2A47"/>
+    <rect x="182" y="150" width="24" height="50" fill="#1E2A47"/>
+    <rect x="212" y="60" width="18" height="140" fill="#1E2A47"/>
+    <rect x="236" y="100" width="30" height="100" fill="#1E2A47"/>
+    <rect x="272" y="130" width="26" height="70" fill="#1E2A47"/>
+    <rect x="304" y="80" width="20" height="120" fill="#1E2A47"/>
+    <rect x="330" y="145" width="34" height="55" fill="#1E2A47"/>
+    <rect x="370" y="100" width="24" height="100" fill="#1E2A47"/>
+    <rect x="400" y="60" width="16" height="140" fill="#1E2A47"/>
+    <rect x="422" y="120" width="28" height="80" fill="#1E2A47"/>
+    <rect x="456" y="150" width="30" height="50" fill="#1E2A47"/>
+    <rect x="492" y="90" width="20" height="110" fill="#1E2A47"/>
+    <rect x="518" y="130" width="26" height="70" fill="#1E2A47"/>
+    <rect x="550" y="70" width="18" height="130" fill="#1E2A47"/>
+    <rect x="574" y="110" width="30" height="90" fill="#1E2A47"/>
+  </svg>
+  <div class="hero-inner">
+    <span class="eyebrow-pill">Frases para empezar</span>
+    <h1>Español<br><em>desde cero</em><small>Основні фрази з вимовою — щоб заговорити іспанською вже сьогодні</small></h1>
+    <p class="hero-ua">Фрази на кожен день</p>
+    <p class="hero-tagline">Натисни ▶ під кожним розділом — і слухай, як звучить кожна фраза українською та іспанською.</p>
+  </div>
+</header>
+
+<section class="intro">
+  <p>Ця міні-книга — не підручник з граматики, а швидка «шпаргалка» на перший час або перше знайомство з мовою.</p>
+  <p>Фрази згруповані за ситуаціями: від привітання до екстреної допомоги. Кожна фраза — з вимовою, щоб ти міг сказати її правильно навіть без знання правил читання.</p>
+  <p>Гортай, обирай потрібну ситуацію — і говори іспанською вже сьогодні.</p>
+  <div class="tip">
+    <span class="tip-icon">💡</span>
+    <div>
+      <strong>Порада</strong>
+      <p>Не намагайся вивчити все одразу. Обирай по 5–10 фраз на день.</p>
+    </div>
+  </div>
+</section>
+
+<nav class="toc" aria-label="Зміст">
+  <h2>Contenido</h2>
+  <div class="toc-grid">
+    <a class="toc-link" href="#ch1"><span class="toc-num">01</span> Привітання та прощання</a>
+    <a class="toc-link" href="#ch2"><span class="toc-num">02</span> Ввічливість та базові слова</a>
+    <a class="toc-link" href="#ch3"><span class="toc-num">03</span> Знайомство та спілкування</a>
+    <a class="toc-link" href="#ch4"><span class="toc-num">04</span> Розуміння мови</a>
+    <a class="toc-link" href="#ch5"><span class="toc-num">05</span> Подорожі та готель</a>
+    <a class="toc-link" href="#ch6"><span class="toc-num">06</span> Ресторан, кафе та покупки</a>
+    <a class="toc-link" href="#ch7"><span class="toc-num">07</span> Почуття та потреби</a>
+    <a class="toc-link" href="#ch8"><span class="toc-num">08</span> Допомога та екстрені ситуації</a>
+    <a class="toc-link" href="#ch9"><span class="toc-num">09</span> Популярні вислови</a>
+  </div>
+</nav>
+
+<main class="chapters">
+
+  <article class="chapter" id="ch1">
+    <div class="chapter-head"><span class="chapter-num">01</span><h2>Привітання та прощання</h2></div>
+    <p class="chapter-es">Saludos y despedidas</p>
+    <div class="player-block">
+      <div class="player-label">▶ Прослухати розділ</div>
+      <audio controls preload="none" src="audio/01-privitannya.mp3">Ваш браузер не підтримує аудіо.</audio>
+    </div>
+    <ul class="phrase-list">
+      <li class="phrase"><div class="phrase-es">¡Hola! <span class="pron">(Ола)</span></div><div class="phrase-ua">Привіт</div></li>
+      <li class="phrase"><div class="phrase-es">¡Buenos días! <span class="pron">(Буенос діас)</span></div><div class="phrase-ua">Доброго ранку / дня</div></li>
+      <li class="phrase"><div class="phrase-es">¡Buenas tardes! <span class="pron">(Буенас тардес)</span></div><div class="phrase-ua">Доброго дня/вечора</div></li>
+      <li class="phrase"><div class="phrase-es">¡Buenas noches! <span class="pron">(Буенас ночес)</span></div><div class="phrase-ua">Добраніч</div></li>
+      <li class="phrase"><div class="phrase-es">¡Adiós! <span class="pron">(Адьос)</span></div><div class="phrase-ua">До побачення</div></li>
+      <li class="phrase"><div class="phrase-es">Hasta mañana <span class="pron">(Аста маньяна)</span></div><div class="phrase-ua">До завтра</div></li>
+      <li class="phrase"><div class="phrase-es">Nos vemos <span class="pron">(Нос вемос)</span></div><div class="phrase-ua">Побачимося</div></li>
+      <li class="phrase"><div class="phrase-es">Tengo que irme <span class="pron">(Тенго ке ірме)</span></div><div class="phrase-ua">Мені пора (йти)</div></li>
+    </ul>
+  </article>
+
+  <article class="chapter" id="ch2">
+    <div class="chapter-head"><span class="chapter-num">02</span><h2>Ввічливість та базові слова</h2></div>
+    <p class="chapter-es">Cortesía y palabras básicas</p>
+    <div class="player-block">
+      <div class="player-label">▶ Прослухати розділ</div>
+      <audio controls preload="none" src="audio/02-vvichlyvist.mp3">Ваш браузер не підтримує аудіо.</audio>
+    </div>
+    <ul class="phrase-list">
+      <li class="phrase"><div class="phrase-es">Por favor <span class="pron">(Пор фавор)</span></div><div class="phrase-ua">Будь ласка</div></li>
+      <li class="phrase"><div class="phrase-es">Gracias <span class="pron">(Грасіас)</span></div><div class="phrase-ua">Дякую</div></li>
+      <li class="phrase"><div class="phrase-es">Muchas gracias <span class="pron">(Мучас грасіас)</span></div><div class="phrase-ua">Дуже дякую</div></li>
+      <li class="phrase"><div class="phrase-es">De nada <span class="pron">(Де нада)</span></div><div class="phrase-ua">Нема за що</div></li>
+      <li class="phrase"><div class="phrase-es">Lo siento <span class="pron">(Ло сьєнто)</span></div><div class="phrase-ua">Вибачте (мені шкода)</div></li>
+      <li class="phrase"><div class="phrase-es">Perdón <span class="pron">(Пердон)</span></div><div class="phrase-ua">Пробачте</div></li>
+      <li class="phrase"><div class="phrase-es">Disculpe <span class="pron">(Дискульпе)</span></div><div class="phrase-ua">Перепрошую (для уваги)</div></li>
+      <li class="phrase"><div class="phrase-es">No hay problema <span class="pron">(Но ай проблема)</span></div><div class="phrase-ua">Немає проблем</div></li>
+      <li class="phrase"><div class="phrase-es">Sí <span class="pron">(Сі)</span></div><div class="phrase-ua">Так</div></li>
+      <li class="phrase"><div class="phrase-es">No <span class="pron">(Но)</span></div><div class="phrase-ua">Ні</div></li>
+      <li class="phrase"><div class="phrase-es">Quizás <span class="pron">(Кісас)</span></div><div class="phrase-ua">Можливо</div></li>
+      <li class="phrase"><div class="phrase-es">Por supuesto <span class="pron">(Пор супуесто)</span></div><div class="phrase-ua">Звичайно</div></li>
+      <li class="phrase"><div class="phrase-es">Claro <span class="pron">(Кларо)</span></div><div class="phrase-ua">Звісно / Зрозуміло</div></li>
+    </ul>
+  </article>
+
+  <article class="chapter" id="ch3">
+    <div class="chapter-head"><span class="chapter-num">03</span><h2>Знайомство та спілкування</h2></div>
+    <p class="chapter-es">Conocer gente y conversar</p>
+    <div class="player-block">
+      <div class="player-label">▶ Прослухати розділ</div>
+      <audio controls preload="none" src="audio/03-znayomstvo.mp3">Ваш браузер не підтримує аудіо.</audio>
+    </div>
+    <ul class="phrase-list">
+      <li class="phrase"><div class="phrase-es">¿Cómo te llamas? <span class="pron">(Комо те ямас)</span></div><div class="phrase-ua">Як тебе звати?</div></li>
+      <li class="phrase"><div class="phrase-es">Me llamo... <span class="pron">(Ме ямо)</span></div><div class="phrase-ua">Мене звати...</div></li>
+      <li class="phrase"><div class="phrase-es">Soy... <span class="pron">(Сой)</span></div><div class="phrase-ua">Я є...</div></li>
+      <li class="phrase"><div class="phrase-es">¿Cuántos años tienes? <span class="pron">(Куантос аньос тьєнес)</span></div><div class="phrase-ua">Скільки тобі років?</div></li>
+      <li class="phrase"><div class="phrase-es">Tengo... años <span class="pron">(Тенго... аньос)</span></div><div class="phrase-ua">Мені... років</div></li>
+      <li class="phrase"><div class="phrase-es">Encantado / Encantada <span class="pron">(Енкантадо / Енкантада)</span></div><div class="phrase-ua">Дуже приємно</div></li>
+      <li class="phrase"><div class="phrase-es">Mucho gusto <span class="pron">(Мучо густо)</span></div><div class="phrase-ua">Дуже приємно (універсально)</div></li>
+      <li class="phrase"><div class="phrase-es">¿De dónde eres? <span class="pron">(Де донде ерес)</span></div><div class="phrase-ua">Звідки ти?</div></li>
+      <li class="phrase"><div class="phrase-es">Soy de... <span class="pron">(Сой де)</span></div><div class="phrase-ua">Я з...</div></li>
+      <li class="phrase"><div class="phrase-es">¿Cómo estás? <span class="pron">(Комо естас)</span></div><div class="phrase-ua">Як справи?</div></li>
+      <li class="phrase"><div class="phrase-es">¿Qué tal? <span class="pron">(Ке таль)</span></div><div class="phrase-ua">Як справи? (неформально)</div></li>
+      <li class="phrase"><div class="phrase-es">Bien <span class="pron">(Бьєн)</span></div><div class="phrase-ua">Добре</div></li>
+      <li class="phrase"><div class="phrase-es">Mal <span class="pron">(Маль)</span></div><div class="phrase-ua">Погано</div></li>
+      <li class="phrase"><div class="phrase-es">Más o menos <span class="pron">(Мас о менос)</span></div><div class="phrase-ua">Так собі / більш-менш</div></li>
+    </ul>
+  </article>
+
+  <article class="chapter" id="ch4">
+    <div class="chapter-head"><span class="chapter-num">04</span><h2>Розуміння мови</h2></div>
+    <p class="chapter-es">Entender el idioma</p>
+    <div class="player-block">
+      <div class="player-label">▶ Прослухати розділ</div>
+      <audio controls preload="none" src="audio/04-rozuminnya.mp3">Ваш браузер не підтримує аудіо.</audio>
+    </div>
+    <ul class="phrase-list">
+      <li class="phrase"><div class="phrase-es">¿Me entiendes? <span class="pron">(Ме ентитендес)</span></div><div class="phrase-ua">Ти мене розумієш?</div></li>
+      <li class="phrase"><div class="phrase-es">Entiendo <span class="pron">(Ентієндо)</span></div><div class="phrase-ua">Розумію</div></li>
+      <li class="phrase"><div class="phrase-es">No entiendo <span class="pron">(Но ентієндо)</span></div><div class="phrase-ua">Не розумію</div></li>
+      <li class="phrase"><div class="phrase-es">¿Hablas inglés? <span class="pron">(Аблас інглес)</span></div><div class="phrase-ua">Ти розмовляєш англійською?</div></li>
+      <li class="phrase"><div class="phrase-es">Hablo un poco de español <span class="pron">(Абло ун поко де еспаньол)</span></div><div class="phrase-ua">Я трохи розмовляю іспанською</div></li>
+      <li class="phrase"><div class="phrase-es">Más despacio, por favor <span class="pron">(Мас деспасіо, пор фавор)</span></div><div class="phrase-ua">Повільніше, будь ласка</div></li>
+      <li class="phrase"><div class="phrase-es">Repite, por favor <span class="pron">(Репіте, пор фавор)</span></div><div class="phrase-ua">Повторіть, будь ласка</div></li>
+      <li class="phrase"><div class="phrase-es">¿Qué significa...? <span class="pron">(Ке сігніфіка)</span></div><div class="phrase-ua">Що означає...?</div></li>
+      <li class="phrase"><div class="phrase-es">¿Cómo se dice... en español? <span class="pron">(Комо се дісе... ен еспаньол)</span></div><div class="phrase-ua">Як сказати... іспанською?</div></li>
+    </ul>
+  </article>
+
+  <article class="chapter" id="ch5">
+    <div class="chapter-head"><span class="chapter-num">05</span><h2>Подорожі та готель</h2></div>
+    <p class="chapter-es">Viajes y hotel</p>
+    <div class="player-block">
+      <div class="player-label">▶ Прослухати розділ</div>
+      <audio controls preload="none" src="audio/05-podorozhi.mp3">Ваш браузер не підтримує аудіо.</audio>
+    </div>
+    <ul class="phrase-list">
+      <li class="phrase"><div class="phrase-es">Tengo que ir al hotel <span class="pron">(Тенго ке ір аль отель)</span></div><div class="phrase-ua">Мені потрібно поїхати в готель</div></li>
+      <li class="phrase"><div class="phrase-es">Para aquí, por favor <span class="pron">(Пара акі, пор фавор)</span></div><div class="phrase-ua">Зупиніться тут, будь ласка</div></li>
+      <li class="phrase"><div class="phrase-es">¿Hay una habitación? <span class="pron">(Ай уна абітасьйон)</span></div><div class="phrase-ua">Чи є вільна кімната?</div></li>
+      <li class="phrase"><div class="phrase-es">¿Cuánto cuesta por noche? <span class="pron">(Куанто куеста пор ноче)</span></div><div class="phrase-ua">Скільки коштує за ніч?</div></li>
+      <li class="phrase"><div class="phrase-es">¿Cuánto cuesta? <span class="pron">(Куанто куеста)</span></div><div class="phrase-ua">Скільки це коштує?</div></li>
+      <li class="phrase"><div class="phrase-es">Quiero pedir comida <span class="pron">(Кьєро педір коміда)</span></div><div class="phrase-ua">Я хочу замовити їжу</div></li>
+    </ul>
+  </article>
+
+  <article class="chapter" id="ch6">
+    <div class="chapter-head"><span class="chapter-num">06</span><h2>Ресторан, кафе та покупки</h2></div>
+    <p class="chapter-es">Restaurante, café y compras</p>
+
+    <div class="player-block">
+      <div class="player-label">▶ Частина 1 — кава, орієнтування, меню</div>
+      <audio controls preload="none" src="audio/06a-restoran.mp3">Ваш браузер не підтримує аудіо.</audio>
+    </div>
+    <ul class="phrase-list">
+      <li class="phrase"><div class="phrase-es">Café con leche <span class="pron">(Кафе кон лече)</span></div><div class="phrase-ua">Кава з молоком</div></li>
+      <li class="phrase"><div class="phrase-es">Café (solo) <span class="pron">(Кафе)</span></div><div class="phrase-ua">Кава (чорна)</div></li>
+      <li class="phrase"><div class="phrase-es">Sin azúcar <span class="pron">(Сін асукар)</span></div><div class="phrase-ua">Без цукру</div></li>
+      <li class="phrase"><div class="phrase-es">¿Dónde está...? <span class="pron">(Донде еста)</span></div><div class="phrase-ua">Де знаходиться...?</div></li>
+      <li class="phrase"><div class="phrase-es">¿Dónde está la playa? <span class="pron">(Донде еста ла пляйя)</span></div><div class="phrase-ua">Де пляж?</div></li>
+      <li class="phrase"><div class="phrase-es">¿Dónde está la plaza central? <span class="pron">(Донде еста ла пляса сентраль)</span></div><div class="phrase-ua">Де центральна площа?</div></li>
+      <li class="phrase"><div class="phrase-es">¿Dónde comer la mejor paella? <span class="pron">(Донде комер ла мехор паелья)</span></div><div class="phrase-ua">Де поїсти найкращу паелью?</div></li>
+      <li class="phrase"><div class="phrase-es">La carta, por favor <span class="pron">(Ла карта, пор фавор)</span></div><div class="phrase-ua">Меню, будь ласка</div></li>
+      <li class="phrase"><div class="phrase-es">El menú del día <span class="pron">(Ель мену дель діа)</span></div><div class="phrase-ua">Денне меню</div></li>
+    </ul>
+
+    <div class="player-block" style="margin-top:32px;">
+      <div class="player-label">▶ Частина 2 — рахунок і покупки</div>
+      <audio controls preload="none" src="audio/06b-restoran.mp3">Ваш браузер не підтримує аудіо.</audio>
+    </div>
+    <ul class="phrase-list">
+      <li class="phrase"><div class="phrase-es">La cuenta, por favor <span class="pron">(Ла куента, пор фавор)</span></div><div class="phrase-ua">Рахунок, будь ласка</div></li>
+      <li class="phrase"><div class="phrase-es">Tráeme la cuenta <span class="pron">(Траеме ла куента)</span></div><div class="phrase-ua">Принесіть мені рахунок</div></li>
+      <li class="phrase"><div class="phrase-es">Pagar <span class="pron">(Пагар)</span></div><div class="phrase-ua">Платити</div></li>
+      <li class="phrase"><div class="phrase-es">Pago con tarjeta <span class="pron">(Паго кон тархета)</span></div><div class="phrase-ua">Плачу карткою</div></li>
+      <li class="phrase"><div class="phrase-es">Pago en efectivo <span class="pron">(Паго ен ефектіво)</span></div><div class="phrase-ua">Плачу готівкою</div></li>
+      <li class="phrase"><div class="phrase-es">¿Dónde puedo comprar...? <span class="pron">(Донде пуедо компрар)</span></div><div class="phrase-ua">Де я можу купити...?</div></li>
+      <li class="phrase"><div class="phrase-es">¿Cuánto tiempo? <span class="pron">(Куанто тьємпо)</span></div><div class="phrase-ua">Як довго?</div></li>
+      <li class="phrase"><div class="phrase-es">Bastante <span class="pron">(Бастанте)</span></div><div class="phrase-ua">Досить</div></li>
+      <li class="phrase"><div class="phrase-es">Para aquí <span class="pron">(Пара акі)</span></div><div class="phrase-ua">Тут (їсти на місці)</div></li>
+      <li class="phrase"><div class="phrase-es">Para llevar <span class="pron">(Пара євар)</span></div><div class="phrase-ua">З собою (на винос)</div></li>
+      <li class="phrase"><div class="phrase-es">¿Algo más? <span class="pron">(Альго мас)</span></div><div class="phrase-ua">Щось ще?</div></li>
+      <li class="phrase"><div class="phrase-es">¿Qué quieres? <span class="pron">(Ке кьєрес)</span></div><div class="phrase-ua">Що ти хочеш?</div></li>
+      <li class="phrase"><div class="phrase-es">¿Qué te pongo? <span class="pron">(Ке те понго)</span></div><div class="phrase-ua">Що тобі подати/принести?</div></li>
+    </ul>
+  </article>
+
+  <article class="chapter" id="ch7">
+    <div class="chapter-head"><span class="chapter-num">07</span><h2>Почуття та потреби</h2></div>
+    <p class="chapter-es">Sentimientos y necesidades</p>
+    <div class="player-block">
+      <div class="player-label">▶ Прослухати розділ</div>
+      <audio controls preload="none" src="audio/07-pochuttya.mp3">Ваш браузер не підтримує аудіо.</audio>
+    </div>
+    <ul class="phrase-list">
+      <li class="phrase"><div class="phrase-es">Tengo hambre <span class="pron">(Тенго амбре)</span></div><div class="phrase-ua">Я голодний</div></li>
+      <li class="phrase"><div class="phrase-es">Tengo sed <span class="pron">(Тенго сед)</span></div><div class="phrase-ua">Я хочу пити</div></li>
+      <li class="phrase"><div class="phrase-es">Estoy cansado / cansada <span class="pron">(Естой кансадо / кансада)</span></div><div class="phrase-ua">Я втомлений / втомлена</div></li>
+      <li class="phrase"><div class="phrase-es">Me gusta <span class="pron">(Ме густа)</span></div><div class="phrase-ua">Мені подобається</div></li>
+      <li class="phrase"><div class="phrase-es">No me gusta <span class="pron">(Но ме густа)</span></div><div class="phrase-ua">Мені не подобається</div></li>
+      <li class="phrase"><div class="phrase-es">Te quiero <span class="pron">(Те кьєро)</span></div><div class="phrase-ua">Я тебе кохаю / люблю</div></li>
+      <li class="phrase"><div class="phrase-es">No me importa <span class="pron">(Но ме імпорта)</span></div><div class="phrase-ua">Мені все одно</div></li>
+    </ul>
+  </article>
+
+  <article class="chapter" id="ch8">
+    <div class="chapter-head"><span class="chapter-num">08</span><h2>Допомога та екстрені ситуації</h2></div>
+    <p class="chapter-es">Ayuda y emergencias</p>
+    <div class="player-block">
+      <div class="player-label">▶ Прослухати розділ</div>
+      <audio controls preload="none" src="audio/08-dopomoga.mp3">Ваш браузер не підтримує аудіо.</audio>
+    </div>
+    <ul class="phrase-list">
+      <li class="phrase"><div class="phrase-es">¿Puedes ayudarme, por favor? <span class="pron">(Пуедес аюдарме, пор фавор)</span></div><div class="phrase-ua">Можеш мені допомогти?</div></li>
+      <li class="phrase"><div class="phrase-es">¡Socorro! <span class="pron">(Сокорро)</span></div><div class="phrase-ua">На допомогу!</div></li>
+      <li class="phrase"><div class="phrase-es">He perdido mi equipaje <span class="pron">(Е пердідо мі екіпахе)</span></div><div class="phrase-ua">Я загубив свій багаж</div></li>
+      <li class="phrase"><div class="phrase-es">¿Qué puedo hacer? <span class="pron">(Ке пуедо асер)</span></div><div class="phrase-ua">Що я можу зробити?</div></li>
+      <li class="phrase"><div class="phrase-es">Estoy perdido <span class="pron">(Естой пердідо)</span></div><div class="phrase-ua">Я загубився</div></li>
+      <li class="phrase"><div class="phrase-es">¿Qué pasa? <span class="pron">(Ке паса)</span></div><div class="phrase-ua">Що відбувається?</div></li>
+      <li class="phrase"><div class="phrase-es">Tranquilo <span class="pron">(Транкіло)</span></div><div class="phrase-ua">Спокійно</div></li>
+    </ul>
+  </article>
+
+  <article class="chapter" id="ch9">
+    <div class="chapter-head"><span class="chapter-num">09</span><h2>Популярні вислови</h2></div>
+    <p class="chapter-es">Expresiones populares</p>
+    <div class="player-block">
+      <div class="player-label">▶ Прослухати розділ</div>
+      <audio controls preload="none" src="audio/09-vyslovy.mp3">Ваш браузер не підтримує аудіо.</audio>
+    </div>
+    <ul class="phrase-list">
+      <li class="phrase"><div class="phrase-es">Vale <span class="pron">(Бале)</span></div><div class="phrase-ua">Добре / Окей / Згоден</div></li>
+      <li class="phrase"><div class="phrase-es">¡Vamos! <span class="pron">(Бамос)</span></div><div class="phrase-ua">Ходімо! / Давай! / Вперед!</div></li>
+      <li class="phrase"><div class="phrase-es">Me encanta España <span class="pron">(Ме енканта Еспанья)</span></div><div class="phrase-ua">Я обожнюю Іспанію</div></li>
+    </ul>
+  </article>
+
+</main>
+
+<section class="cta" id="cta">
+  <div class="cta-inner">
+    <h2>Ahora te toca a ti</h2>
+    <p>Це тільки початок. Якщо хочеш говорити впевнено, а не просто показувати картку офіціанту — приєднуйся до курсу «Español Українською». Живі уроки, зрозумілі пояснення українською, свій темп.</p>
+    <a class="cta-btn" href="https://www.instagram.com/malinnaartstudio" target="_blank" rel="noopener">Дізнатися про курс</a>
+  </div>
+</section>
+
+<footer>
+  © MalinnaArtStudio · Inna Malosh
+</footer>
+
+</body>
+</html>
