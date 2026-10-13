@@ -7,7 +7,7 @@
 <meta name="description" content="Фрази іспанською на кожен день — з вимовою і аудіо. Безкоштовна міні-книга від MalinnaArtStudio.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wdth,wght@0,62.5,400;0,62.5,600;1,62.5,500;1,62.5,600&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wdth,wght@0,62.5,400;0,62.5,600;1,62.5,400;1,62.5,500;1,62.5,600&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
     --cream:#F4EEE2;
@@ -221,6 +221,17 @@
     .hero{padding:56px 18px 44px;}
     .topbar-inner{padding:12px 16px;}
   }
+  /* ---------- Textbook style: condensed italic titles, ghost numerals ---------- */
+  .hero h1{font-weight:400; font-size:clamp(3.6rem, 11vw, 6.6rem); line-height:.92; letter-spacing:0;}
+  .hero h1 em{font-weight:400; color:#ffc4d4;}
+  .hero h1 small{font-family:'Work Sans',sans-serif; font-stretch:100%; font-weight:500; font-size:clamp(.98rem,2.4vw,1.15rem); line-height:1.55; letter-spacing:0; max-width:540px; margin:20px auto 0;}
+  .chapter{position:relative; display:flex; flex-direction:column;}
+  .chapter-es{order:-1; margin:0 0 6px; position:relative; z-index:1; font-size:.72rem; font-weight:700; letter-spacing:.22em; text-transform:uppercase; color:var(--raspberry);}
+  .chapter-head{order:0; display:block; margin:0 0 22px;}
+  .chapter-num{position:absolute; z-index:0; left:-.03em; top:-.04em; font-size:clamp(6.4rem,19vw,10.5rem); font-weight:400; line-height:1; color:rgba(178,58,87,.1); pointer-events:none; user-select:none;}
+  .chapter h2{position:relative; z-index:1; font-weight:400; font-size:clamp(2.6rem, 7vw, 3.7rem); line-height:1; letter-spacing:0;}
+  .cta h2{font-weight:400; font-size:clamp(2.8rem,9vw,4.6rem); line-height:1; letter-spacing:0;}
+  @media (max-width:560px){ .chapter-num{top:.1em; font-size:6.4rem;} .nav-cta{white-space:normal; text-align:center; padding:8px 12px; font-size:.74rem; line-height:1.25;} .topbar-inner{gap:10px;} .brand span{font-size:.92rem;} }
 </style>
 </head>
 <body>
